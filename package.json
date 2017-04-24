@@ -25,6 +25,11 @@
     "library",
     "javascript"
   ],
+  "jspm": {
+    "hooks": {
+      "postinstall": "git"
+    }
+  },
   "devDependencies": {
     "beefy": "^2.1.5",
     "browserify": "^4.1.8",
